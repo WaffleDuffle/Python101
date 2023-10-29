@@ -1,2 +1,3 @@
 # Python101
-Python learning curve
+## Purpose
+> Python excercises
