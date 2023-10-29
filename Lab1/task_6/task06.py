@@ -1,7 +1,7 @@
 def func(size):
 
     romb = ""
-    size += 2 + (size+1)%2
+    size += 2 + (size + 1) % 2
     ################### TO DO #########################
     
     puncte = ""
