@@ -1,10 +1,9 @@
 def func(size):
 
     romb = ""
-    size += 2
+    size += 2 + (size+1)%2
     ################### TO DO #########################
-    if size % 2 == 0:
-        size += 1
+    
     puncte = ""
     spatii = ""
     for i in range(size//2):
