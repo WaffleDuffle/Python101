@@ -6,11 +6,11 @@ def task(register):
     names = []
 
     ################### TO DO #########################
-    #procedual
+    #procedual approach
     # def avg(list):
     #     return float(sum(list)/len(list))
     # names = [key for key, value in register.items() if avg(value) >= 8.5]
-    #functional
+    #functional approach
     print(register)
     medie = lambda key: float(sum(register[key])/len(register[key])) >= 8.5
 
