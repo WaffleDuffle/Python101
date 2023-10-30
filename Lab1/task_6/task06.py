@@ -13,7 +13,8 @@ def func(size):
         romb += spatii[:size//2-1-i] + "@" + puncte[:-2*(size//2) + 2*i] + "@\n"
     for i in range(size//2-2, -1, -1):
         romb += spatii[:size//2-1-i] + "@" + puncte[:-2*(size//2) + 2*i] + "@\n"
-
+        
+    #this piece of code can be written way better than what I did but at least it works
     ###################################################
 
     return romb
