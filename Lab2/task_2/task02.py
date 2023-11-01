@@ -7,6 +7,9 @@ def task(*args):
     result = []
 
     ################### TO DO #########################
+
+    #functional approach
+
     func = lambda x: type(x) == int or (type(x) == str and x not in "aeiou" and x >= "a" and x <= "z" and len(x) == 1)
     result = list(filter(func, args))
 
