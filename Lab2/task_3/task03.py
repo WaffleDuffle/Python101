@@ -13,6 +13,7 @@ def task(register):
     # names = [key for key, value in register.items() if avg(value) >= 8.5]
     
     #functional approach
+
     #print(register)
     
     medie = lambda key: float(sum(register[key])/len(register[key])) >= 8.5
