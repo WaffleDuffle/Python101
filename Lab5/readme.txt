@@ -1,0 +1,1 @@
+am scos folderul flask si venv deoarece nu ma lasa sa trimit ca are virusi
